@@ -4,12 +4,16 @@
     "slug": "Fahiis",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
+    },
+    "splash": {
+      "image": "./assets/images/solophone5.jpg",
+      "resizeMode": "cover",
+      "imageWidth": 200
     },
     "android": {
       "adaptiveIcon": {
@@ -36,6 +40,21 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "fonts": [
+        "./assets/fonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf",
+        "./assets/fonts/PlusJakartaSans/PlusJakartaSans-SemiBold.ttf",
+        "./assets/fonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf",
+        "./assets/fonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf",
+        "./assets/fonts/Inter/Inter_28pt-Medium.ttf",
+        "./assets/fonts/Inter/Inter_28pt-Regular.ttf",
+        "./assets/fonts/Nunito/Nunito-Regular.ttf",
+        "./assets/fonts/EncodeSans/EncodeSans-Regular.ttf"
+      ]
     }
   }
 }
